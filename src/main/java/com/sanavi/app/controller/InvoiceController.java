@@ -26,10 +26,8 @@ public class InvoiceController
 	private IInvoiceService service;
 	@Autowired
 	private PoRepository repo;
-	
 	@Autowired
 	private EmailConfig email;
-	
 	@Autowired
 	private IInvDiscStsService iservice;
 	
